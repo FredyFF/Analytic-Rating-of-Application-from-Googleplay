@@ -9,8 +9,9 @@
 - [Recommendations](#recommendations)
 
 ### Project Overview
----
-This data analysis project aims to provide insight into scraping rating data for an application in Playstore. Even though the data drawn is small, this technique simply describes how web scraping works, then an analysis is carried out in the form of the score level obtained so that it can be briefly visualized. with eye gaze analysis of rating data from the last 2000 reviewers
+This data analysis project aims to provide insight into scraping rating data for an application in Playstore. Even though the data drawn is small, this technique simply describes how web scraping works, then an analysis is carried out in the form of the score level obtained so that it can be briefly visualized. with eye gaze analysis of rating data from the last 2000 reviewers.
+
+
 
 Data Sources
 In searches related to ratings using the Google Play site where the application being reviewed is downloaded [Instagram] 
