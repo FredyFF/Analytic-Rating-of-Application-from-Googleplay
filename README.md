@@ -13,43 +13,37 @@ This data analysis project aims to provide insight into scraping rating data for
 
 
 
-Data Sources
+### Data Sources
 In searches related to ratings using the Google Play site where the application being reviewed is downloaded [Instagram] 
 
-Tools
-Excel - Data Cleaning
-Download here
-SQL Server - Data Analysis
-PowerBI - Creating reports
-Data Cleaning/Preparation
-In the initial data preparation phase, we performed the following tasks:
+### Tools
+- Excel - Data Cleaning
+- Google Sheet - Data Cleaning
+- Jupyter note book
 
-Data loading and inspection.
-Handling missing values.
-Data cleaning and formatting.
-Exploratory Data Analysis
-EDA involved exploring the sales data to answer key questions, such as:
 
-What is the overall sales trend?
-Which products are top sellers?
-What are the peak sales periods?
-Data Analysis
-Include some interesting code/features worked with
+### Process Scraping to Get Dataset
+in this process will use Google "Google-Play-Scraper" provides APIs to easily crawl the Google Play Store for Python without any external dependencies! [https://pypi.org/]
+pip install google-play-scraper.
 
-SELECT * FROM table1
-WHERE cond = 2;
-Results/Findings
-The analysis results are summarized as follows:
 
-The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-Product Category A is the best-performing category in terms of sales and revenue.
-Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
-Recommendations
-Based on the analysis, we recommend the following actions:
+![alt text](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-26-at-08.49.12.png?w=724)
 
-Invest in marketing and promotions during peak sales seasons to maximize revenue.
-Focus on expanding and promoting products in Category A.
-Implement a customer segmentation strategy to target high-LTV customers effectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Results/Findings
 The analysis results are summarized as follows:
