@@ -29,6 +29,54 @@ pip install google-play-scraper.
 
 ![alt text](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-26-at-08.49.12.png?w=724)
 
+### Import Library Scraper
+
+```html
+<script>
+# Import Library of google play Scarper
+
+from google_play_scraper import Sort, reviews
+from google_play_scraper import app
+import pandas as pd
+import numpy as np
+import datetime
+
+# using now() to get current time when Scraping is begin
+current_time = datetime.datetime.now()
+
+</script>
+```
+
+### Get Token
+```html
+<script>
+# Get Token from com.instagram.android
+
+result, continuation_token = reviews(
+    'com.instagram.android',
+    lang='id', #bahasa (Indonesia), language where review is issued
+    country='id', # Country where reviewer come from
+    sort=Sort.MOST_RELEVANT, #sorting the most relevant
+    count=2000, #count of dataset requested
+    filter_score_with= None  #filling with 1, 2, 3, 4, 5 None if tobe mixed
+)
+
+</script>
+```
+
+### Get Dataset form Review List
+```html
+<script>
+# Dataframe With Name
+
+data = pd.DataFrame(np.array(result),columns=['review'])
+data = data.join(pd.DataFrame(data.pop('review').tolist()))
+data.head()
+
+</script>
+```
+_
+![alt text](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-26-at-08.59.48.png?w=1024)
 
 
 
