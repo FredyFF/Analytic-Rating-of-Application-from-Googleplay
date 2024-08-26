@@ -53,7 +53,7 @@ current_time = datetime.datetime.now()
 # Get Token from com.instagram.android
 
 result, continuation_token = reviews(
-    'com.instagram.android',
+    'com.instagram.android',  #INSTAGRAM
     lang='id', #bahasa (Indonesia), language where review is issued
     country='id', # Country where reviewer come from
     sort=Sort.MOST_RELEVANT, #sorting the most relevant
@@ -118,7 +118,28 @@ Modify Rating to score analyst, at this stage we can modify the rating which was
 - 2 - Not Good
 - 1 - Bad
 
+```html
+<script>
+import pandas as pd
 
+dataInstagram = pd.read_csv('/Users/fredyfirmansyah/Desktop/TRAINING DS/Data Review.csv')
+
+
+for i in range(len(dataInstagram ['score'])):
+    if dataInstagram ['score'][i] == 5:
+        dataInstagram['score'][i] = 'Very Good'
+    if dataInstagram ['score'][i] == 4:
+        dataInstagram['score'][i] = 'Like'
+    if dataInstagram['score'][i] == 3:
+        dataInstagram['score'][i] = 'Neutral'
+    if dataInstagram['score'][i] == 2:
+        dataInstagram['score'][i] = 'Not Good'
+    if dataInstagram['score'][i] == 1:
+        dataInstagram['score'][i] = 'Bad'
+
+dataInstagram.to_csv("Result Data Review.csv", index = False  , encoding='utf-8')
+</script>
+```
 
 
 
