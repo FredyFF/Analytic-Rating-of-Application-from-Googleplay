@@ -171,8 +171,8 @@ plt.show()
 </script>
 ```
 
-
-
+![alt text](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-26-at-16.28.30.png?w=610)
+From the bar diagram above, it shows that the differences in height have a fairly descriptive appearance, what if we use another diagram, for example a pie chart. let's look at the visualization form
 
 
 
