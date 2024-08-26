@@ -111,6 +111,13 @@ data.to_csv("Data Review.csv", index = False  , encoding='utf-8')
 
 </script>
 ```
+Modify Rating to score analyst, at this stage we can modify the rating which was previously an integer from the range 1 to 5, we change it to a perception measuring rating such as: 
+- 5 - Very Good
+- 4 - Likes
+- 3 - Neutral
+- 2 - Not Good
+- 1 - Bad
+
 
 
 
