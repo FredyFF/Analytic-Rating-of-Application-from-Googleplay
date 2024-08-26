@@ -101,7 +101,16 @@ data.head()
 </script>
 ```
 
+In data analysis we can download the data set that we have scaping, making it easier to do ETL
 
+```html
+<script>
+# export to csv 
+
+data.to_csv("Data Review.csv", index = False  , encoding='utf-8')
+
+</script>
+```
 
 
 
