@@ -144,7 +144,32 @@ dataInstagram.to_csv("Result Data Review.csv", index = False  , encoding='utf-8'
 
 Data can be imagined in visualizations which can be realized with useful tools, such as existing data visualizations. We can see the complexity of the data by creating a bar plot so we can see the bars of the data set.
 
+```html
+<script>
+# Create Barplot Visualization
 
+from matplotlib import pyplot as plt
+
+verg = (dataInstagram['score'] == 'Very Good').sum()
+like = (dataInstagram['score'] == 'Like').sum()
+Neu = (dataInstagram['score'] == 'Neutral').sum()
+notg = (dataInstagram['score'] == 'Not Good').sum()
+bad = (dataInstagram['score'] == 'Bad').sum()
+
+
+sen = ['Very Good', 'Like', 'Neutral', 'Not Good', 'Bad']
+
+data = [verg, like, Neu,notg,bad]
+
+plt.bar(sen, data, color ='blue', 
+        width = 0.4)
+
+plt.xlabel("Sentimen Result")
+plt.ylabel("No. of Rating Sentimen")
+plt.title("Sentimen analysis Application of Instagram")
+plt.show()
+</script>
+```
 
 
 
