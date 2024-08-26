@@ -182,14 +182,34 @@ _
 ![alt text](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-26-at-16.36.47.png?w=610)
 
 
-
-
-Results/Findings
+### Results/Findings
 The analysis results are summarized as follows:
 
-The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-Product Category A is the best-performing category in terms of sales and revenue.
-Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+Rating :  2.5775
+Count Data :  2000
+Scraping Time execution :  2024-08-23 17:05:49
+
+This is an easy way to see a summary of the data that has been obtained, with this script it will show the conclusions that have been made.
+
+```html
+<script>
+# Conclusion
+
+import pandas as pd
+
+dataInstagram = pd.read_csv('/Users/fredyfirmansyahit/Desktop/TRAINING DS/Data Review.csv')
+avg = (dataInstagram['score']).mean()
+
+print('Rating : ', avg)
+print('Count Data : ', len(dataInstagram['score']))
+print('Scraping Time execution : ', current_time )
+
+</script>
+```
+
+
+
+
 
 Limitations
 I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
