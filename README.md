@@ -79,6 +79,27 @@ _
 ![alt text](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-26-at-08.59.48.png?w=1024)
 
 
+In this process use 2000 rows, show lets check data with Len
+```html
+<script>
+#check length of dataset
+
+len(data)
+
+</script>
+```
+Because we only need 2 columns in this analysis, we can split it by displaying only the relevant columns
+
+
+```html
+<script>
+# use relevant column 
+
+data = data[['content','score']]
+data.head()
+
+</script>
+```
 
 
 
