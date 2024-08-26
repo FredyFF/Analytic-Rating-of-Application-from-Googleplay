@@ -185,9 +185,9 @@ _
 ### Results/Findings
 The analysis results are summarized as follows:
 
-Rating :  2.5775
-Count Data :  2000
-Scraping Time execution :  2024-08-23 17:05:49
+- Rating :  2.5775
+- Count Data :  2000
+- Scraping Time execution :  2024-08-23 17:05:49
 
 This is an easy way to see a summary of the data that has been obtained, with this script it will show the conclusions that have been made.
 
