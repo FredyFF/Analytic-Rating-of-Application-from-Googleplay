@@ -142,6 +142,7 @@ dataInstagram.to_csv("Result Data Review.csv", index = False  , encoding='utf-8'
 ```
 # Vsualization
 
+Data can be imagined in visualizations which can be realized with useful tools, such as existing data visualizations. We can see the complexity of the data by creating a bar plot so we can see the bars of the data set.
 
 
 
