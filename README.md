@@ -6,7 +6,9 @@
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
+- [Data Visualization](#Vsualization)
 - [Recommendations](#recommendations)
+
 
 ### Project Overview
 This data analysis project aims to provide insight into scraping rating data for an application in Playstore. Even though the data drawn is small, this technique simply describes how web scraping works, then an analysis is carried out in the form of the score level obtained so that it can be briefly visualized. with eye gaze analysis of rating data from the last 2000 reviewers.
@@ -140,7 +142,7 @@ for i in range(len(dataInstagram ['score'])):
 dataInstagram.to_csv("Result Data Review.csv", index = False  , encoding='utf-8')
 </script>
 ```
-# Vsualization
+## Vsualization
 
 Data can be imagined in visualizations which can be realized with useful tools, such as existing data visualizations. We can see the complexity of the data by creating a bar plot so we can see the bars of the data set.
 
@@ -181,6 +183,7 @@ _
 
 ![alt text](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-26-at-16.36.47.png?w=610)
 
+___
 
 ### Results/Findings
 The analysis results are summarized as follows:
