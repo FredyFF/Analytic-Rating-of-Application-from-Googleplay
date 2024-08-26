@@ -189,7 +189,7 @@ The analysis results are summarized as follows:
 - Count Data :  2000
 - Scraping Time execution :  2024-08-23 17:05:49
 
-This is an easy way to see a summary of the data that has been obtained, with this script it will show the conclusions that have been made.
+This is an easy way to see a summary of the data that has been obtained, with this script it will show the conclusions that have been made. 
 
 ```html
 <script>
@@ -206,17 +206,14 @@ print('Scraping Time execution : ', current_time )
 
 </script>
 ```
+_
 
+From this data analysist we can gain insight into where at a certain time the 2000 data taken actually only had a rating of less than 3, but if the time span and data used were more diverse then there would be differences in the processing of this data. Regarding the existing ratings, so far we know that the ratings will continuously change.
 
+### Limitations
+In general, this analyst can be used as an example in data scraping, the data used is only around 2000, which is quite small. Next, the analysis generally describes how the data is interpreted.
 
-
-
-Limitations
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
 
 References
-SQL for Businesses by werty.
-Stack Overflow
-https://github.com/Irene-arch/Documenting_Example/blob/main/README.md
-https://python-graph-gallery.com/90-heatmaps-with-various-input-format/
+
 
